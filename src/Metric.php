@@ -87,7 +87,7 @@ abstract class Metric
      */
     protected function namespace(): string
     {
-        return Str::snake(config('app.name'));
+        return Str::snake(config('exporter.default_namespace'));
     }
 
     /**

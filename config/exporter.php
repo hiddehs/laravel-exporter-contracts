@@ -40,4 +40,11 @@ return [
 
     'middleware' => ['web'],
 
+
+	/*
+	 * ----
+	 * Override default metric namespace
+	 * ----
+	 */
+	'default_namespace' => env('APP_NAME', 'Laravel')
 ];
